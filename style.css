@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0077b6;
+  color: whitesmoke;
+}
+
+#main-container {
+  display: flex;
+  height: 100vh;
+}
+
+#left-hand-container {
+  background-image: url(images/sidebarimg.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 30%;
+}
+
+#right-hand-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 20px;
+}
+
+#description {
+  font-weight: bold;
+  font-size: 2em;
+}
